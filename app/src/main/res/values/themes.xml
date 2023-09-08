@@ -1,0 +1,24 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.DoaDzikirApp" parent="Theme.Material3.DayNight">
+        <item name="android:statusBarColor">@color/main</item>
+        <item name="colorSurface">@color/main</item>
+        <item name="titleTextColor">@color/white</item>
+
+    </style>
+
+    <style name="Theme.DoaDzikirApp" parent="Base.Theme.DoaDzikirApp" />
+
+    <style name="Theme.App.DzikirPagi" parent="Base.Theme.DoaDzikirApp">
+        <item name="android:statusBarColor">@color/dot_blue</item>
+        <item name="colorSurface">@color/dot_blue</item>
+
+    </style>
+
+    <style name="Theme.App.DzikirPetang" parent="Base.Theme.DoaDzikirApp">
+        <item name="android:statusBarColor">@color/dark_orange</item>
+        <item name="colorSurface">@color/dark_orange</item>
+
+
+    </style>
+</resources>
